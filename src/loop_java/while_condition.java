@@ -17,11 +17,12 @@ public class while_condition {
 		
 		int i = 1;
 		// o programa nao checa a condicao ele pula dentro da condicoes depois testa..usar 5 e 20;
+		// increment and decrement - start some value and then change to became true.
 		
-		i = 5;
+		i = 1;
 		do
 		{
-			System.out.println(i);
+			System.out.println("The number now increment: " + i);
 			i++;
 			try{Thread.sleep(500);}catch(InterruptedException e){System.out.println(e);}
 		}while(i<=10);
