@@ -15,9 +15,12 @@ public class foor_loop_java {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i = 10;
-		System.out.println("O i tem valo de: " + i);
-
+		for (int i =50; i>=0; i--)
+		{
+		System.out.println("O i tem valo de: Sophia Pinho    Sophia Pinho     Sophia Pinho    Sophia Pinho   Sophia Pinho" + i); // 1
+		try{Thread.sleep(100);}catch(InterruptedException e){System.out.println(e);}
+		}
+		System.out.println("-----> Sophia Pinho, we love you! S2 ");
 	}
 
 }
