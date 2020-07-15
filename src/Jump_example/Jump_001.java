@@ -15,10 +15,10 @@ public class Jump_001 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		for (int i =1; i<=10; i++) {
-			
-			if (i==6) 
+			// or in java ||
+			if (i==3|| i==5 || i==7) 
 			{
-				break;
+				continue;  //break and continue jump inside the software
 			}
 			
 			System.out.println(i);
