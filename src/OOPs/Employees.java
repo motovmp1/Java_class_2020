@@ -17,7 +17,7 @@ public class Employees {
 	int salary;
 	int depto;
 	
-	void display()
+	void display() // methods
 	{
 		System.out.println(empid);
 		System.out.println(empname);
@@ -33,6 +33,7 @@ public class Employees {
 		emp1.salary = 10000;
 		emp1.depto = 10;
 		emp1.display();
+		
 		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++");
 	
 		Employees emp2 = new Employees(); // second employee
@@ -41,8 +42,6 @@ public class Employees {
 		emp2.salary = 20000;
 		emp2.depto = 12;
 		emp2.display();
-		
-		
 		
 	}
 }
